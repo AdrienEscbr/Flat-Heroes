@@ -1,0 +1,122 @@
+
+.menu{
+    position: relative;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 2vw;
+}
+
+.menu li h3 {
+    color: white;
+}
+
+.menu li h3:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.main_container, .rules, .parameters{
+    width: 60%;
+    /* min-width: 500px;*/
+    height: auto; 
+    /* border: 3px solid black; */
+    padding: 0vh 1.4vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: orange;
+    z-index: 1;
+}
+
+.main_container h1, .rules h1{
+    font-size: 9vh;
+    margin: 0;
+}
+
+.main_container h2, .rules h2, .parameters h2{
+    font-size: 5vh;
+}
+
+.main_container p, .parameters {
+    text-wrap: wrap;
+    font-size: 3vh;
+}
+
+.rules p{
+    text-wrap: wrap;
+    font-size: 2.4vh;
+}
+
+.main_container .button_container{
+    position: relative;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container .button_container .button_wrapper{
+    
+    /* margin: 6%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+.main_container .button_container .button_wrapper button{
+    width: 100%;
+    height: 6vh;
+    font-family: 'VT323', monospace;
+    font-size: 3vh;
+    border: 3px solid black;
+    text-align: center;
+}
+
+
+.main_container .button_container .button_wrapper button:hover{
+    
+    border: 3px solid orange;
+    color: orange;
+}
+
+.footer_container
+{
+    position: relative;
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 2vw;
+}
+
+.content_image_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_image_wrapper p{
+    color: white;
+    line-height: 0px;
+}
+
+.footer_image{
+    max-width: 30px;
+}
+
+footer p {
+    line-height: 0;
+}

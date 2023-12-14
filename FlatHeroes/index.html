@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+    <script src="./js/jeu/sounds.js"></script>
+    <script src="./js/index/script.js"></script>   
+    <script src="./js/index/parameters.js"></script> 
+    <title>Flat Heroes - Accueil</title>
+</head>
+<body>
+    <!-- barre de navigation -->
+    <header id="header">
+        
+        <ul class="menu">
+            <li><h3 id="home">Accueil</h3></li>
+            <li><h3 id="rules">Règles</h3></li>
+            <li><h3 id="parameters">Paramètres</h3></li>
+        </ul>
+        
+    </header>
+    <main id="main">
+        <section class="main_container">
+            <h1>Flat Heroes</h1>
+            <h2>Bienvenue sur Flat Heroes !</h2>
+            <p>Ce jeu est codé en Javascipt. Sa conception entre dans le cadre du Master Informatique DS4H pour la notation de la Mineur Javascript. Amusez-vous bien !</p>
+            
+            <!-- Sélection du nombre de joueurs -->
+            <fieldset>
+                <legend>Sélectionner le nombre de joueurs :</legend>
+              
+                <div>
+                  <input class="radioButton" type="radio" id="onePlayer" name="nbPlayers" value="1" checked />
+                  <label for="onePlayer">1 joueur</label>
+                </div>
+              
+                <div>
+                  <input class="radioButton" type="radio" id="twoPlayers" name="nbPlayers" value="2" />
+                  <label for="twoPlayers">2 joueurs</label>
+                </div>
+              
+                <div>
+                  <input class="radioButton" type="radio" id="threePlayers" name="nbPlayers" value="3" />
+                  <label for="threePlayers">3 joueurs</label>
+                </div>
+
+                <div>
+                    <input class="radioButton" type="radio" id="fourPlayers" name="nbPlayers" value="4" />
+                    <label for="fourPlayers">4 joueurs</label>
+                </div>
+            </fieldset>
+
+            <!-- Bouton jouer -->
+            <div class="button_container">
+                <div class="button_wrapper">
+                    <button type="button" id="playButton" >JOUER</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section des règles -->
+        <section class="rules">
+            <h1>Flat Heroes</h1>
+            <h2>Règles du jeu</h2>
+            <p>
+                Les règles sont simples : survivre aux différents niveaux !<br>
+                Le jeu accepte plusieurs joueurs. Tant qu'un joueur survie au niveau, le jeu continue.<br><br>
+                
+                Pour vous déplacer, vous devez utiliser les touches directionnelles. Vous pouvez également sauter sur les obstacles et sur les murs.<br><br>
+
+                Si tous les joueurs sont éliminés, c'est GAME OVER. Mais rassurez vous, il est possible de rejouer le niveau.
+                Pour gagner, il vous suffit de passer tous les niveaux. 
+                Mais attention aux redoutables ennemis ! <br><br>Bon jeu à vous.
+            </p>            
+        </section>
+
+        <!-- Section des paramètres - Menu flottant -->
+        <section class="parameters">
+            <img id="close" src="./assets/images/cross.svg" alt="close">
+            <h2>Paramètres</h2>
+            <div class="audiosParameters">
+                <div class="soundsManager">
+                    <h4>Musique : </h4>
+                    <div class="sounds">
+                        <img class="audioImg" id="musicOn" src="./assets/images/sound-on.svg" alt="sounds_on">
+                        <img class="audioImg" id="musicOff" src="./assets/images/sound-off.svg" alt="sounds_off">
+                    </div>
+                
+                    <div class="volumeSlider">
+                        <label for="volume">Volume de la musique :</label>
+                        <input type="range" id="musicSlider" min="0" max="2" step="0.1">
+                        <div id="musicVolume">0</div>
+                    </div>
+                </div>
+
+                <div class="soundsManager">
+                    <h4>Sons : </h4> 
+                    <div class="sounds">
+                        <img class="audioImg" id="soundsOn" src="./assets/images/sound-on.svg" alt="sounds_on">
+                        <img class="audioImg" id="soundsOff" src="./assets/images/sound-off.svg" alt="sounds_off">
+                    </div>
+                
+                
+                    <div class="volumeSlider">
+                        <label for="volume">Volume des effets sonores :</label>
+                        <input type="range" id="soundsSlider" min="0" max="2" step="0.1">
+                        <div id="soundsVolume">0</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <!-- Pied de page -->
+    <footer id="footer">
+
+        <div class="footer_container">
+            <a class="content_image_wrapper" href="https://github.com/AdrienEscbr" target="_blank" rel="noopener noreferrer">
+                <img class="footer_image" src="./assets/images/github.svg" alt="Github">
+                <p>Github</p>
+            </a>
+            
+            <div class="content_image_wrapper">
+                <img class="footer_image" src="./assets/images/enveloppe.svg" alt="Email">
+                <p>adrien.escoubeyrou@gmail.com</p>
+            </div> 
+            
+            <a class="content_image_wrapper" href="https://www.linkedin.com/in/adrien-escoubeyrou/" target="_blank" rel="noopener noreferrer">
+                <img class="footer_image" src="./assets/images/linkedin.svg" alt="LinkedIn">
+                <p>LinkedIn</p>
+            </a>           
+        </div>
+        <p>© 2023 Tous droits réservés | Site créé par : Adrien ESCOUBEYROU</p>
+    </footer>
+    
+</body>
+   
+</html>

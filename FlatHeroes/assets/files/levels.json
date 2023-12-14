@@ -1,0 +1,167 @@
+{
+    "level_1":[
+
+        {
+            "obstacles" : [
+                {"name":"obstacle_1", "color":"red", "width": 600, "height" : 15, "posX": 0, "posY": 500 }
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 70, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 0, "posY": 0, "direction": "bottom", "offset": 5, "apparitionDelay": 150}
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 500, "posY" : 450},
+                {"waveAmount" : 1}
+            ]
+        }
+
+    ],
+    "level_2":[
+
+        {
+            "obstacles" : [
+                {"name":"obstacle_1", "color":"green", "width": 500, "height" : 15, "posX": 500, "posY": 150 },
+                {"name":"obstacle_2", "color":"green", "width": 400, "height" : 15, "posX": 0, "posY": 400 },
+                {"name":"obstacle_3", "color":"green", "width": 400, "height" : 15, "posX": 600, "posY": 400 }
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 70, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 0, "posY": 0, "direction": "bottom", "offset": 5, "apparitionDelay": 100},
+                {"wave": 1, "amount" : 70, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 0, "posY": 800, "direction": "top", "offset": 5, "apparitionDelay": 100}
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 100, "posY" : 350},
+                {"waveAmount" : 1}
+            ]
+        }
+
+    ],
+    "level_3":[
+
+        {
+            "obstacles" : [
+                
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 60, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 0, "posY": 400, "direction": "bottom", "offset": 5, "apparitionDelay": 50},
+                {"wave": 2, "amount" : 60, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 1000, "posY": 200, "direction": "bottom", "offset": -25, "apparitionDelay": 50},
+                {"wave": 3, "amount" : 60, "type": "arrow", "color":"red", "width": 10, "height": 25, "posX": 0, "posY": 0, "direction": "bottom", "offset": 5, "apparitionDelay": 50}
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 500, "posY" : 800},
+                {"waveAmount" : 3}
+            ]
+        }
+
+    ],
+    "level_4":[
+
+        {
+            "obstacles" : [
+                {"name":"obstacle_1", "color":"blue", "width": 15, "height" : 200, "posX": 150, "posY": 80 },
+                {"name":"obstacle_2", "color":"blue", "width": 15, "height" : 200, "posX": 850, "posY": 80 },
+                {"name":"obstacle_3", "color":"blue", "width": 150, "height" : 15, "posX": 700, "posY": 265 },
+
+                {"name":"obstacle_4", "color":"blue", "width": 150, "height" : 15, "posX": 150, "posY": 400 },
+                {"name":"obstacle_5", "color":"blue", "width": 150, "height" : 15, "posX": 715, "posY": 500 },
+                {"name":"obstacle_6", "color":"blue", "width": 250, "height" : 15, "posX": 150, "posY": 600 },
+                {"name":"obstacle_7", "color":"blue", "width": 250, "height" : 15, "posX": 615, "posY": 700 }
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 50, "type": "arrow", "color":"yellow", "width": 30, "height": 10, "posX": 0, "posY": 800, "direction": "right", "offset": 5, "apparitionDelay": 90},
+                {"wave": 1, "amount" : 50, "type": "arrow", "color":"green", "width": 30, "height": 10, "posX": 1000, "posY": 800, "direction": "left", "offset": 5, "apparitionDelay": 90}                
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 500, "posY" : 800},
+                {"waveAmount" : 1}
+            ]
+        }
+
+    ],
+    "level_5":[
+
+        {
+            "obstacles" : [
+                {"name":"obstacle_1", "color":"purple", "width": 150, "height" : 15, "posX": 150, "posY": 200 },
+                {"name":"obstacle_2", "color":"purple", "width": 15, "height" : 200, "posX": 500, "posY": 200 },
+                {"name":"obstacle_3", "color":"purple", "width": 200, "height" : 15, "posX": 700, "posY": 350 },
+
+                {"name":"obstacle_4", "color":"purple", "width": 150, "height" : 15, "posX": 250, "posY": 500 },
+                {"name":"obstacle_5", "color":"purple", "width": 150, "height" : 15, "posX": 700, "posY": 650 }
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 5, "type": "missile", "color":"red", "width": 40, "height": 10, "posX": 30, "posY": 30, "direction": "bottom", "offset": 0, "apparitionDelay": 0},     
+                {"wave": 2, "amount" : 5, "type": "missile", "color":"blue", "width": 40, "height": 10, "posX": 970, "posY": 770, "direction": "bottom", "offset": 0, "apparitionDelay": 0}      
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 500, "posY" : 800},
+                {"waveAmount" : 2}
+            ]
+        }
+
+    ],
+    "level_6":[
+
+        {
+            "obstacles" : [
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 5, "type": "missile", "color":"red", "width": 20, "height": 5, "posX": 500, "posY": 400, "direction": "bottom", "offset": 0, "apparitionDelay": 500},
+                {"wave": 2, "amount" : 10, "type": "missile", "color":"yellow", "width": 20, "height": 5, "posX": 500, "posY": 400, "direction": "bottom", "offset": 0, "apparitionDelay": 0}   
+                      
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 500, "posY" : 800},
+                {"waveAmount" : 2}
+            ]
+        }
+
+    ],
+    "level_7":[
+
+        {
+            "obstacles" : [
+                {"name":"obstacle_1", "color":"red", "width": 300, "height" : 15, "posX": 200, "posY": 200 },
+                {"name":"obstacle_2", "color":"red", "width": 15, "height" : 500, "posX": 500, "posY": 200 }
+            ]
+        },
+        {
+            "enemies" : [
+                {"wave": 1, "amount" : 5, "type": "missile", "color":"blue", "width": 35, "height": 10, "posX": 550, "posY": 400, "direction": "bottom", "offset": 0, "apparitionDelay": 500},
+                {"wave": 2, "amount" : 5, "type": "missile", "color":"yellow", "width": 35, "height": 10, "posX": 10, "posY": 10, "direction": "bottom", "offset": 0, "apparitionDelay": 500},
+                {"wave": 3, "amount" : 5, "type": "missile", "color":"red", "width": 35, "height": 10, "posX": 980, "posY": 750, "direction": "bottom", "offset": 0, "apparitionDelay": 500}   
+                      
+            ]
+        },
+        {
+            "spawn" : [
+                {"posX" : 200, "posY" : 100},
+                {"waveAmount" : 3}
+            ]
+        }
+
+    ]
+
+}
